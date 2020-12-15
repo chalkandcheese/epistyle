@@ -6,9 +6,17 @@ A derivative of [Spectre](https://github.com/picturepan2/spectre), with our own 
 
 ```sh
 npm install
-npx gulp watch
+npx gulp build
 # ^or npx gulp build for a one-off build.
 ```
+
+The necessary assets will be updated in the `dist` directory.
+
+### Development
+
+We use [browser-sync](https://browsersync.io/) for interactive development. Run `npx gulp serve` to see `dev/index.html` served.
+Any changes to source files will trigger a browser reload--changes to `scss` files will rebuild the corresponding `css` files
+and inject them into open browser windows.
 
 ### Distribution
 
