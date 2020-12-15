@@ -1,4 +1,14 @@
-$primary-color: #2e5bec;
-$dark-color: #3e396b;
-$body-bg: #000063;
-$body-font-color: #fff;
+$primary-color: #B89662;
+$dark-color: #000950;
+$secondary-color: #000063;
+$light-color: #fff;
+
+$body-font-color: $light-color;
+$body-bg: linear-gradient(180deg, $secondary-color 0%, $dark-color 100%);
+
+$fire-color: #C31515;
+$water-color: #07B1E7;
+$earth-color: #00D89C;
+$air-color: #EEB357;
+/* Sketch doesnt export pattern fills at this point */
+//$x: #2F3EBA;
