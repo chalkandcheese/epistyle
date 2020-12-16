@@ -2,3 +2,7 @@
 @include text-color-variant(".text-water", $water-color);
 @include text-color-variant(".text-earth", $earth-color);
 @include text-color-variant(".text-air", $air-color);
+
+@include text-color-variant(".text-analytic", $fire-color);
+@include text-color-variant(".text-synthetic", $water-color);
+@include text-color-variant(".text-neutral", $earth-color);

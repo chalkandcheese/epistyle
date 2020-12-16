@@ -1,0 +1,34 @@
+svg{
+  .zodiac-segment g{
+    fill-opacity: 0;
+    stroke: $light-color;
+  }
+
+  .earth-sign {
+    path{
+      stroke: $earth-color;
+      fill: $earth-color;
+    }
+  }
+
+  .water-sign{
+    path{
+      stroke: $water-color;
+      fill: $water-color;
+    }
+  }
+
+  .fire-sign{
+    path{
+      stroke: $fire-color;
+      fill: $fire-color
+    }
+  }
+
+  .air-sign{
+    path{
+      stroke: $air-color;
+      fill: $air-color;
+    }
+  }
+}

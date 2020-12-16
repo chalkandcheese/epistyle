@@ -56,3 +56,37 @@
 .fnc-Sextile:before{content:'\006a';}
 .fnc-Square:before{content:'\006b';}
 .fnc-Trine:before{content:'\006c';}
+
+i{
+    &.icon-planet{
+        color: $gray-color;
+    }
+
+    &.icon-air{
+        color: $air-color;
+    }
+
+    &.icon-water{
+        color: $water-color;
+    }
+
+    &.icon-fire{
+        color: $fire-color;
+    }
+
+    &.icon-earth{
+        color: $earth-color;
+    }
+
+    &.icon-analytic{
+        color: $fire-color;
+    }
+
+    &.icon-synthetic{
+        color: $water-color;
+    }
+
+    &.icon-neutral{
+        color: $earth-color;
+    }
+}

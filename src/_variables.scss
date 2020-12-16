@@ -1,14 +1,20 @@
 $primary-color: #B89662;
 $dark-color: #000950;
+$gray-color: #1e2ca2;
 $secondary-color: #000063;
-$light-color: #fff;
+$light-color: #3c4feb;
+$white-color: #fff;
 
-$body-font-color: $light-color;
-$body-bg: linear-gradient(180deg, $secondary-color 0%, $dark-color 100%);
+$body-font-color: $white-color;
+$body-bg: linear-gradient(180deg, #0C1775 0%, $dark-color 100%);//linear-gradient(180deg, $secondary-color 0%, $dark-color 100%);
+
+$border-color-light: #2F3EBA;
 
 $fire-color: #C31515;
 $water-color: #07B1E7;
 $earth-color: #00D89C;
 $air-color: #EEB357;
-/* Sketch doesnt export pattern fills at this point */
-//$x: #2F3EBA;
+
+// From: https://github.com/necolas/normalize.css/issues/665
+$title-font-family:  "Americana", "Quattrocento", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$base-font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
