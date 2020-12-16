@@ -246,6 +246,16 @@ i.icon-neutral
     color: #00d89c;
 }
 
+i.icon-light
+{
+    color: #3c4feb;
+}
+
+i.icon-right
+{
+    position: absolute; right: .5rem; margin-top: .25rem;
+}
+
 .text-fire
 {
     color: #c31515 !important;
@@ -385,6 +395,11 @@ h6
     font-family: 'Americana', 'Quattrocento', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
+.hero-title
+{
+    padding-top: 4rem;
+}
+
 svg .zodiac-segment g
 {
     fill-opacity: 0; stroke: #3c4feb;
@@ -488,6 +503,16 @@ svg .air-sign path
 .above-navbar
 {
     margin-bottom: 4rem;
+}
+
+.gold-stars-bg
+{
+    background-image: url(svg/stars-gold.svg);
+}
+
+.blue-stars-bg
+{
+    background-image: url(svg/stars-blue.svg);
 }
 
 /*! Spectre.css v0.5.9 | MIT License | github.com/picturepan2/spectre */
