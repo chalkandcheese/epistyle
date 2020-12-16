@@ -1,0 +1,48 @@
+.input-transparent{
+  background: none !important;
+  border-radius: 6px !important;
+  //color: $white-color !important;
+  &:focus{
+    box-shadow: 0 0 0 .1rem rgba($border-color-light, .2) !important;
+    border-color: $border-color-light !important; 
+  }
+}
+
+.form-radio, .form-icon{
+  background: none !important;
+
+  input{
+    &:checked + .form-icon{
+      background: $primary-color !important;
+      border-color: $primary-color !important;
+    }
+  }
+}
+
+.btn-round{
+  border-radius: 32px !important;
+  color: $white-color !important;
+  font-weight: bolder;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.input-hint-highlighted{
+  background-color: $darkish-color !important;
+  border-radius: 6px !important;
+  //color: $white-color !important;
+  font-weight: bold !important;
+  padding: .5rem;
+  box-shadow: 0 4px 20px 0 rgba(0,0,0,0.10);
+}
+
+.form-group-flex{
+  display: flex;
+  justify-content: space-between;
+
+  input, label, .form-group{
+    flex: auto;
+    margin-right: .2rem;
+//    margin-left: .2rem;
+  }
+}

@@ -1,0 +1,39 @@
+.navbar-fixed{
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 30;
+  min-height: 3.25rem;
+  display: block;
+  padding: .5rem;
+//  box-shadow: 0 2px 0 0 $gray-color;
+}
+
+.navbar-border-top{
+  border-top:  1px solid $gray-color;
+}
+
+.navbar-border-bottom{
+  border-bottom: 1px solid $gray-color;
+}
+
+.navbar-fixed-top{
+  top: 0;
+}
+
+.navbar-fixed-bottom{
+  bottom: 0;
+}
+
+.under-navbar{
+  margin-top: 4rem;
+}
+
+.above-navbar{
+  margin-bottom: 4rem;
+}
+
+
+// ^ some ideas from:
+// https://bulma.io/documentation/components/navbar/#fixed-navbar
+// https://www.w3schools.com/howto/howto_js_navbar_sticky.asp
