@@ -1,7 +1,32 @@
 svg{
-  .zodiac-segment g{
-    fill-opacity: 0;
-    stroke: $light-color;
+  &.chart{
+    height: auto;
+    width: auto;
+  }
+
+  path, g{
+    stroke: $white-color;
+    fill: $white-color;
+  }
+
+  .zodiac-segment, .house-segment, .radix{
+    g, path{
+      fill-opacity: 0;
+      stroke: transparentize($white-color, 0.5);
+    }
+  }
+
+  .planet {
+    g, path{
+      stroke: $primary-color;
+      fill: darken($primary-color, 5%);
+    }
+  }
+
+  .planet-lines{
+    g, path{
+      stroke: transparentize($primary-color, 0.4);
+    }
   }
 
   .earth-sign {
@@ -29,6 +54,24 @@ svg{
     path{
       stroke: $air-color;
       fill: $air-color;
+    }
+  }
+
+  .neutral-aspect{
+    path{
+      stroke: darken($earth-color, 10%);
+    }    
+  }
+
+  .analytical-aspect, .analytic-aspect{
+    path{
+      stroke: darken($fire-color, 10%);
+    }
+  }
+
+  .synthetic-aspect{
+    path{
+      stroke: darken($water-color, 10%);
     }
   }
 }
