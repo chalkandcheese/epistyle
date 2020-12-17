@@ -400,6 +400,11 @@ h6
     padding-top: 4rem;
 }
 
+.brand-text
+{
+    font-family: 'Americana', 'Quattrocento', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: bolder; text-transform: uppercase; color: #b89662;
+}
+
 svg.chart
 {width: auto; 
     height: auto;
