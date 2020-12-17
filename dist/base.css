@@ -400,9 +400,42 @@ h6
     padding-top: 4rem;
 }
 
-svg .zodiac-segment g
+.brand-text
 {
-    fill-opacity: 0; stroke: #3c4feb;
+    font-family: 'Americana', 'Quattrocento', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; font-weight: bolder; text-transform: uppercase; color: #b89662;
+}
+
+svg.chart
+{width: auto; 
+    height: auto;
+}
+
+svg path,
+svg g
+{
+    stroke: #fff; fill: #fff;
+}
+
+svg .zodiac-segment g,
+svg .zodiac-segment path,
+svg .house-segment g,
+svg .house-segment path,
+svg .radix g,
+svg .radix path
+{
+    fill-opacity: 0; stroke: rgba(255, 255, 255, .5);
+}
+
+svg .planet g,
+svg .planet path
+{
+    stroke: #b89662; fill: #b08a50;
+}
+
+svg .planet-lines g,
+svg .planet-lines path
+{
+    stroke: rgba(184, 150, 98, .6);
 }
 
 svg .earth-sign path
@@ -423,6 +456,22 @@ svg .fire-sign path
 svg .air-sign path
 {
     stroke: #eeb357; fill: #eeb357;
+}
+
+svg .neutral-aspect path
+{
+    stroke: #00a577;
+}
+
+svg .analytical-aspect path,
+svg .analytic-aspect path
+{
+    stroke: #951010;
+}
+
+svg .synthetic-aspect path
+{
+    stroke: #068bb6;
 }
 
 .input-transparent
@@ -513,6 +562,16 @@ svg .air-sign path
 .blue-stars-bg
 {
     background-image: url(svg/stars-blue.svg);
+}
+
+.scrollable-container
+{
+    overflow: auto !important;
+}
+
+.multiline-p
+{
+    white-space: pre-line; word-break: break-word; -webkit-hyphens: auto;         hyphens: auto;     -ms-hyphens: auto; overflow-wrap: anywhere;
 }
 
 /*! Spectre.css v0.5.9 | MIT License | github.com/picturepan2/spectre */
@@ -822,7 +881,7 @@ html
 
 body
 {font-family: 'Roboto', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif, 'Helvetica Neue', sans-serif; font-size: .8rem; overflow-x: hidden; color: #fff; 
-    background: linear-gradient(180deg, #0c1775 0%, #000950 100%); text-rendering: optimizeLegibility;
+    background: linear-gradient(180deg, #0c1775 90%, #000950 100%); text-rendering: optimizeLegibility;
 }
 
 a
