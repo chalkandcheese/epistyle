@@ -1,2 +1,9 @@
 .scrollable-container {overflow: auto !important;}
 .multiline-p{ white-space: pre-line; hyphens: auto; word-break: break-word; overflow-wrap: anywhere;}
+.flex-container{ 
+  display: flex; justify-content: space-between;
+
+  span, .flex-item{
+    flex: auto;
+  }
+}
