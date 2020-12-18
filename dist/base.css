@@ -253,7 +253,7 @@ i.icon-light
 
 i.icon-right
 {
-    position: absolute; right: .5rem; margin-top: .25rem;
+    float: right; margin-top: .25rem;
 }
 
 .text-fire
@@ -432,10 +432,20 @@ svg .planet path
     stroke: #b89662; fill: #b08a50;
 }
 
+svg .planet text
+{
+    fill: #b08a50;
+}
+
 svg .planet-lines g,
 svg .planet-lines path
 {
     stroke: rgba(184, 150, 98, .6);
+}
+
+svg .container-circle
+{
+    stroke: #fff;
 }
 
 svg .earth-sign path
@@ -572,6 +582,48 @@ svg .synthetic-aspect path
 .multiline-p
 {
     white-space: pre-line; word-break: break-word; -webkit-hyphens: auto;         hyphens: auto;     -ms-hyphens: auto; overflow-wrap: anywhere;
+}
+
+.flex-container
+{
+    display: flex; justify-content: space-between;
+}
+
+.flex-container span,
+.flex-container .flex-item
+{
+    flex: auto;
+}
+
+.divider-dark
+{
+    border-top: .05rem solid #000950 !important;
+}
+
+.card-dark
+{border: none !important; border-radius: .3rem !important; 
+    background-color: #0e1c8c !important;
+}
+
+.tab-block-dark
+{font-family: 'Americana', 'Quattrocento', -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; margin-bottom: .5rem !important; 
+
+    border: none !important;
+}
+
+.tab-block-dark .tab-item
+{
+    color: #b89662 !important;
+}
+
+.tab-block-dark .tab-item.active
+{
+    border-radius: .9rem !important; background-color: #0e1c8c !important;
+}
+
+.tab-block-dark .tab-item.active a
+{
+    color: #fff !important; border: none !important;
 }
 
 /*! Spectre.css v0.5.9 | MIT License | github.com/picturepan2/spectre */

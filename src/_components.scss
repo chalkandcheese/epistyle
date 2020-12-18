@@ -1,0 +1,27 @@
+.divider-dark{
+  border-top: $border-width solid $dark-color !important;
+}
+
+.card-dark{
+  background-color: lighten($darkish-color, 5%) !important;
+  border: none !important;
+  border-radius: 0.3rem !important;
+}
+
+.tab-block-dark{
+  border: none !important;
+  font-family: $title-font-family;
+  margin-bottom: 0.5rem !important;
+  .tab-item{
+    color: $primary-color !important;
+
+    &.active{
+      border-radius: 0.9rem !important;
+      background-color: lighten($darkish-color, 5%) !important;
+      a{
+        color: $white-color !important;
+        border: none !important;
+      }
+    }
+  }
+}
