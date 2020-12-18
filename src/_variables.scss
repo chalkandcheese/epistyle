@@ -21,6 +21,9 @@ $success-color: $earth-color;
 $warning-color: $air-color;
 $error-color:   $fire-color;
 
+$unit-o: .05rem;
+$border-width: $unit-o;
+
 // From: https://github.com/necolas/normalize.css/issues/665
 $title-font-family:  "Americana", "Quattrocento", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $base-font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
