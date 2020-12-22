@@ -16,6 +16,14 @@ svg{
     }
   }
 
+  .transiting-house-segment, .transiting-house-label {
+    g, path, text{
+      fill-opacity: 0;
+      stroke: transparentize($white-color, 0.3);
+      fill: transparentize($white-color, 0.3);
+    }
+  }
+
   .planet {
     g, path{
       stroke: $primary-color;
@@ -30,6 +38,23 @@ svg{
   .planet-lines{
     g, path{
       stroke: transparentize($primary-color, 0.4);
+    }
+  }
+
+  .transiting-planet {
+    g, path{
+      stroke: $transit-color;
+      fill: darken($transit-color, 5%);
+    }
+
+    text{
+      fill: darken($transit-color, 5%);
+    }
+  }
+
+  .transiting-planet-lines{
+    g, path{
+      stroke: transparentize($transit-color, 0.4);
     }
   }
 
