@@ -3,3 +3,14 @@
     border-bottom-style: none !important;
   }
 }
+
+//.table-hover-dark tr:hover{ border-bottom: .05rem solid #9da8ff !important; }
+.table-hover-dark{
+  tbody{
+    tr{
+      &:hover{
+        background: lighten($darkish-color, 5%);
+      }
+    }
+  }
+}
