@@ -432,11 +432,7 @@ svg .radix path
 }
 
 svg .transiting-house-segment g,
-svg .transiting-house-segment path,
-svg .transiting-house-segment text,
-svg .transiting-house-label g,
-svg .transiting-house-label path,
-svg .transiting-house-label text
+svg .transiting-house-segment path
 {
     fill-opacity: 0; stroke: rgba(255, 255, 255, .7); fill: rgba(255, 255, 255, .7);
 }
@@ -461,18 +457,18 @@ svg .planet-lines path
 svg .transiting-planet g,
 svg .transiting-planet path
 {
-    stroke: purple; fill: #670067;
+    stroke: #00bf8a; fill: #00a577;
 }
 
 svg .transiting-planet text
 {
-    fill: #670067;
+    fill: #00a577;
 }
 
 svg .transiting-planet-lines g,
 svg .transiting-planet-lines path
 {
-    stroke: rgba(128, 0, 128, .6);
+    stroke: rgba(0, 191, 138, .6);
 }
 
 svg .container-circle
