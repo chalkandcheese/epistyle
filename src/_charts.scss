@@ -16,8 +16,8 @@ svg{
     }
   }
 
-  .transiting-house-segment, .transiting-house-label {
-    g, path, text{
+  .transiting-house-segment {
+    g, path{
       fill-opacity: 0;
       stroke: transparentize($white-color, 0.3);
       fill: transparentize($white-color, 0.3);
