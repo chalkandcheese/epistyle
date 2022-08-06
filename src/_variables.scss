@@ -7,7 +7,7 @@ $light-color: #3c4feb;
 $white-color: #fff;
 
 $body-font-color: $white-color;
-$body-bg: linear-gradient(180deg, $darkish-color 90%, $dark-color 100%);//linear-gradient(180deg, $secondary-color 0%, $dark-color 100%);
+$body-bg: $dark-color;
 
 $border-color-dark: #2F3EBA;
 $border-color-light: #3c4feb;
@@ -27,5 +27,5 @@ $unit-o: .05rem;
 $border-width: $unit-o;
 
 // From: https://github.com/necolas/normalize.css/issues/665
-$title-font-family:  "Americana", "Quattrocento", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$title-font-family:  "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 $base-font-family: "Roboto", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;

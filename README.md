@@ -1,6 +1,6 @@
 ## Firmament
 
-A derivative of [Spectre](https://github.com/picturepan2/spectre), with our own extra styles common to `freenatalchart.xyz` and other sites.
+A derivative of [Spectre](https://github.com/picturepan2/spectre) with extra styles.
 
 ### Building
 
@@ -25,11 +25,11 @@ We currently list it on [`jsdelivr`](https://www.jsdelivr.com/features#gh)
 Latest should be available at:
 
 ```
-https://cdn.jsdelivr.net/gh/natal-chart/firmament/dist/base.min.css
+https://cdn.jsdelivr.net/gh/chalkandcheese/epistyle/dist/base.min.css
 ```
 
 Or by commit/tag:
 
 ```
-https://cdn.jsdelivr.net/gh/natal-chart/firmament@f88df718c6a20dc904d3c694f79b32afae1ad4af/dist/base.min.css
+https://cdn.jsdelivr.net/gh/chalkandcheese/epistyle@f88df718c6a20dc904d3c694f79b32afae1ad4af/dist/base.min.css
 ```
